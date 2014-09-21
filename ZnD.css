@@ -1,0 +1,119 @@
+#ZnD-demo{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#drag {
+    width: 45%;
+    float: left;
+    padding: 10px 2%;
+    background: #EAEEF4;
+    min-height: 250px;
+}
+
+#dragcont {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.draggablediv {
+    list-style-type: none;
+    display: block;
+    width: 200px;
+    padding: 10px 3%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 1px solid #C9CFD9;
+    background-color: #fff;
+    position: relative;
+}
+
+#sort {
+    width: 45%;
+    float: right;
+    padding: 10px 2%;
+    background: #EAEEF4;
+    min-height: 250px;
+}
+
+#finalcontainer {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    min-height: 130px;
+}
+
+#finalcontainer li {
+    list-style-type: none;
+}
+
+.emptydiv {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: #F3F6FB;
+    margin-bottom: 5px;
+}
+
+.helperPick {border:1px dashed #000; opacity:0.5; padding: 10px; background-color: green; color: #fff; width: 200px}
+
+.optRight {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+}
+
+.optRight a {
+    margin-left: 10px;
+}
+
+.helpIcon {
+    display: none;
+}
+
+/*Modal CSS*/
+
+.modalBG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    opacity: .8;
+    z-index: 102;
+}
+
+.modal-dialog{
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0 0 20px 0 #222;
+    -webkit-box-shadow: 0 0 20px 0 #222;
+    -moz-box-shadow: 0 0 20px 0 #222;
+    display: none;
+    left: 50%;
+    margin: -120px 0 0 -160px;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    z-index: 1000;
+}
+
+.ZnDbtn{
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 60px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  cursor: pointer;
+}
