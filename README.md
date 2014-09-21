@@ -70,19 +70,41 @@ jQ().ZnD.showModal({
 });
 ```
 
+This code displays the ZnD modal dialog. You'll need to change the body content (which accepts all markup) to suit your needs.
 
 Options
 ===
 
-Options for the ZnD Drag&Drop interfacing:
+######ZnD Drag&Drop Interfacing
 
-*finalContainer* - The div you want to make droppable. 
-*draggable* - This is the div (or class of divs) that you want to make draggable. 
-*errorElement* - This is the element that ZnD will use to indicate that an item is already in the list. This is determined by a div's ID attribute. ZnD changes the background color to a bright red, then back.
-*removedCallback* - This function is called after an item has been removed from the list. 
-*droppedCallback* - This function is called after an item has been successfully added to the list.
-*helpCallback* - This function is called after the help icon is clicked, assuming you included one.
-*dragContainer* - This is the element that you want to hold all of your draggable divs, initially. 
-*dragTitle* - 
+**finalContainer** - The div you want to make droppable. 
 
-This code displays the ZnD modal dialog. You'll need to change the body content (which accepts all markup) to suit your needs.
+**draggable** - This is the div (or class of divs) that you want to make draggable. 
+
+**errorElement** - This is the element that ZnD will use to indicate that an item is already in the list. This is determined by a div's ID attribute. ZnD changes the background color to a bright red, then back.
+
+**removedCallback** - This function is called after an item has been removed from the list.
+ 
+**droppedCallback** - This function is called after an item has been successfully added to the list.
+
+**helpCallback** - This function is called after the help icon is clicked, assuming you included one.
+
+**dragContainer** - This is the element that you want to hold all of your draggable divs, initially. 
+
+**dragTitle** - This is the title dislayed above the dragContainer. 
+
+**finalTitle** - This is the title displayed above the finalContainer.
+
+**titleSize** - On an HTML heading based scale ( <hx> ), the size of the title heading.  
+
+######ZnD Modal Dialog
+
+**bodyContent** - This is the content that ZnD displays on the modal window. Any HTML markup is accepted. 
+
+**buttonColor** - This is the color of the button that triggers the modalClose function.
+
+**buttonText** - The text of the button that triggers the closeModal function. This is usually 'Close' or 'Okay'.
+
+**modalWidth** - The width of the modal. Any type of specification (px, %, etc) is accepted. 
+
+**modalHeight** - The height of the modal. Any type of specification (px, %, etc) is accepted. 
